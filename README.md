@@ -1,5 +1,3 @@
-"""
-
 # 🌟 Meeting Workflow Automation with LLM Agent 🌟
 
 
