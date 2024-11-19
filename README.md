@@ -1,48 +1,79 @@
 """
-LLM Agent for Meeting Workflow Automation
+############################################################
+# 🌟 Meeting Workflow Automation with LLM Agent 🌟
+############################################################
 
-An Autonomous agent created using Langchain and langchain agents to create project proposals and automate meeting workflow.
+Welcome to the Meeting Workflow Automation script! This guide will walk you through using a Langchain-based LLM agent to streamline your meeting processes, from gathering information to generating comprehensive project proposals.
 
-Read the blog: https://www.ionio.ai/blog/lets-automate-your-meeting-workflow-with-langchain-and-agents-code-included
+📖 For an in-depth guide, check out our blog:
+🔗 [Automate Your Meeting Workflow with Langchain and Agents](https://www.ionio.ai/blog/lets-automate-your-meeting-workflow-with-langchain-and-agents-code-included)
 
-Sneak Peek:
-- A visual demonstration of the product is available at: 
-  https://assets-global.website-files.com/62528d398a42420e66390ef9/65dcad8e72447b6c41891851_product_demo.gif
+🎥 **Visual Demonstration:**
+- Watch our product in action: 
+  ![Product Demo](https://assets-global.website-files.com/62528d398a42420e66390ef9/65dcad8e72447b6c41891851_product_demo.gif)
 
-How it Works:
-1. Get information about prospect and idea:
-   - The agent retrieves information about a prospect & their idea from the internet using the Perplexity API when a call is booked.
+############################################################
+# 🔍 Workflow Overview
+############################################################
 
-2. Find possible solution:
-   - It finds possible solutions for the idea and how to convert that idea into an actual product from the internet.
+1. **Retrieve Prospect Information:**
+   - Utilize the Perplexity API to fetch details about a prospect and their idea when a call is booked.
 
-3. Create proposal:
-   - Creates a professional project proposal from the given idea, client information, and solution, which includes other information like tech stack, timeline, project link, etc.
+2. **Identify Possible Solutions:**
+   - Explore potential solutions to transform the idea into a viable product.
 
-4. Convert proposal to sharable document:
-   - Saves the project proposal as a Notion document or Word document.
+3. **Generate Project Proposal:**
+   - Craft a detailed project proposal, including client information, solutions, tech stack, timeline, and project link.
 
-Architecture:
-- A visual representation of the architecture is available at:
-  https://assets-global.website-files.com/62528d398a42420e66390ef9/65dcab8b7d7f1710c7221f84_image4.png
+4. **Convert Proposal to Document:**
+   - Save the proposal as a Notion document or a Word document for easy sharing.
 
-Getting Started:
+############################################################
+# 🛠 Architecture
+############################################################
 
-Prerequisites:
-- Python and Anaconda installed on your machine
-- OpenAI API key
-- Perplexity API key
-- Notion API key
-
-How to Run:
-1. Clone the repository.
-2. Create a file called `constants.py` in the same folder and store all of your API keys like this:
-
-   OPENAI_API_KEY = <key_here>
-   PERPLEXITY_API_KEY = <key_here>
-   NOTION_API_KEY = <key_here>
-
-3. Open any Jupyter notebook from the repository.
-4. Select your existing Python environment or create one using Anaconda.
-5. Run the code.
+- Visualize the architecture: 
+  ![Architecture Diagram](https://assets-global.website-files.com/62528d398a42420e66390ef9/65dcab8b7d7f1710c7221f84_image4.png)
 """
+
+############################################################
+# 🚀 Prerequisites
+############################################################
+
+# - Ensure you have Python and Anaconda installed on your machine.
+# - Obtain API keys for OpenAI, Perplexity, and Notion.
+
+############################################################
+# 📥 Step 1: Clone the Repository
+############################################################
+
+# Use the following command to clone the repository:
+# git clone <repository_url>
+
+############################################################
+# 🔑 Step 2: Create a constants.py File
+############################################################
+
+# Store your API keys in a file named `constants.py` in the same directory as this script.
+# Example content for constants.py:
+# OPENAI_API_KEY = 'your_openai_api_key'
+# PERPLEXITY_API_KEY = 'your_perplexity_api_key'
+# NOTION_API_KEY = 'your_notion_api_key'
+
+############################################################
+# 📂 Step 3: Open a Jupyter Notebook from the Repository
+############################################################
+
+# Launch Jupyter Notebook and open any notebook from the cloned repository.
+
+############################################################
+# 🐍 Step 4: Select or Create a Python Environment
+############################################################
+
+# Use Anaconda to create a new environment or select an existing one.
+
+############################################################
+# ▶️ Step 5: Run the Code
+############################################################
+
+# Execute the cells in the Jupyter notebook to run the automation process.
