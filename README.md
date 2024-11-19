@@ -1,7 +1,7 @@
 """
-############################################################
+
 # 🌟 Meeting Workflow Automation with LLM Agent 🌟
-############################################################
+
 
 Welcome to the Meeting Workflow Automation script! This guide will walk you through using a Langchain-based LLM agent to streamline your meeting processes, from gathering information to generating comprehensive project proposals.
 
